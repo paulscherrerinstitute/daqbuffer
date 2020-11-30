@@ -1,0 +1,15 @@
+[package]
+name = "parsersdaq"
+version = "0.0.1"
+authors = ["Dominik Werder <dominik.werder@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+nom = "5.1.2"
+snafu = "0.6.9"
+tracing = "0.1.19"
+num-derive = "0.3.2"
+num-traits = "0.2.12"
+serde = "1.0.117"
+serde_derive = "1.0.117"
+chrono = "0.4.19"
