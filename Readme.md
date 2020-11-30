@@ -25,11 +25,16 @@ That's it. Binary is now at: `./target/release/daqbuffer`
 
 # Setup Toolchain
 
-Install Rust toolchain (https://www.rust-lang.org/tools/install). Simplest way:
+Install Rust toolchain.
+Quoting from <https://www.rust-lang.org/tools/install> the official installation method:
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+
+This specifically requires a verified TLS connection and then executes the installer.
+
+Installation will, by default, be only for your user. No superuser privileges required.
 
 That's it.
 
